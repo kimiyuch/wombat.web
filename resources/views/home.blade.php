@@ -10,7 +10,7 @@
         ['icon' => 'cursor-arrow-rays', 'title' => 'Show in Finder', 'body' => 'Double-click any row to open it in Finder and take a closer look yourself.'],
         ['icon' => 'code-bracket', 'title' => 'Made for developers', 'body' => 'Finds old node_modules and Composer vendor folders, Xcode DerivedData, Docker images and simulator leftovers.'],
         ['icon' => 'lock-closed', 'title' => 'Knows what it can’t see', 'body' => 'Without Full Disk Access some folders look smaller than they are. Wombat tells you, and takes you to the setting.'],
-        ['icon' => 'arrow-path', 'title' => 'Digs again on ⌘R', 'body' => 'Wombats dig burrows up to 30 metres long. Wombat rescans your disk in about a minute.'],
+        ['icon' => 'arrow-path', 'title' => 'Dig as deep as you like', 'body' => 'Wombats dig burrows up to 30 metres long. Pick a quick look at your disk, the slower search for project folders, or both.'],
     ];
 
     $safe = [
@@ -129,7 +129,7 @@
                     Everything you need, nothing you don’t
                 </h2>
                 <p class="mt-6 max-w-[48ch] text-lg/8 text-pretty text-neutral-600">
-                    Open Wombat and it starts digging. A minute later you know where your space went and what you can get back.
+                    Pick how deep Wombat digs, and you soon know where your space went and what you can get back. It keeps the last dig, so the next time you open it, the answer is already there.
                 </p>
 
                 <dl class="mt-16 grid grid-cols-1 gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
