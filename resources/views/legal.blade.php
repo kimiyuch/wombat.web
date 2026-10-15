@@ -34,8 +34,9 @@
                 <h2 class="font-display text-2xl font-semibold tracking-tight text-burrow-950">No warranty</h2>
                 <div class="max-w-[65ch] space-y-4 text-base/7 text-pretty text-neutral-600">
                     <p>
-                        Wombat is provided free of charge and “as is”, without any warranty. To the extent the law allows,
-                        we’re not liable for any damage or loss from using it, including lost data.
+                        Wombat is provided free of charge and “as is”, without any warranty, as described in sections 15 and 16 of
+                        its license, the <a href="{{ $repository }}/blob/main/LICENSE" class="font-medium text-burrow-800 hover:text-burrow-600">GNU General Public License v3</a>.
+                        To the extent the law allows, we’re not liable for any damage or loss from using it, including lost data.
                     </p>
                 </div>
             </section>
