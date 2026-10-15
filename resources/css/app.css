@@ -1,0 +1,30 @@
+@import 'tailwindcss' source(none);
+
+/* Only scan the templates; nothing else in the project contains classes. */
+@source '../views';
+@source '../js';
+
+@theme {
+    --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    --font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    --font-display: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+    /* Burrow: the dusky indigo of the app icon, a wombat's home after dark. The brand colour. */
+    --color-burrow-50: #f4f4fa;
+    --color-burrow-100: #e8e7f4;
+    --color-burrow-200: #d0cee8;
+    --color-burrow-300: #aeaad6;
+    --color-burrow-400: #8a84be;
+    --color-burrow-500: #6d66a8;
+    --color-burrow-600: #58518f;
+    --color-burrow-700: #484276;
+    --color-burrow-800: #3b3661;
+    --color-burrow-900: #2e2b4c;
+    --color-burrow-950: #1d1b31;
+
+    /* The four areas of the usage bar, as in the app and its icon. */
+    --color-area-home: #4287ff;
+    --color-area-library: #a865f0;
+    --color-area-apps: #ffa040;
+    --color-area-system: #96959e;
+}
